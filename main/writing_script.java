@@ -1,7 +1,7 @@
 package main;
-public class writing_script {
+public class writing_script extends run_main{
 
-    public static void helloWorld() {
+    public void helloWorld() {
         System.out.println("Hello World From Another World");
 
     }
