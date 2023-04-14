@@ -1,8 +1,7 @@
 //project 1
 package main;
-
-import java.math.BigDecimal;
-import java.math.RoundingMode;
+//import java.math.*;
+import main.Utils.utils_1;
 
 public class run_main{
     public static void main(String[] args) throws Exception{
@@ -14,8 +13,13 @@ public class run_main{
         writing.helloWorld();
         writing_script.helloMars();
         System.out.println(writing_script.helloMars());
+
          // find the closest int for the double
         double x = 79.52;    
         System.out.println(Math.round(x));  
+        
+        //2nd Class instance
+        //utils_1 util = new utils_1();
+        utils_1.helloMars_utils();
     }
 }
